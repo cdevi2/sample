@@ -1,0 +1,3 @@
+COPY HelloWorld.war ${JBOSS_HOME}/standalone/deployments/HelloWorld.war 
+COPY /configuration/*.xml ${JBOSS_HOME}/standalone/configuration/ 
+COPY /modules/* ${JBOSS_HOME}/proivded_modules/ 
